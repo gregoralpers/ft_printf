@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: galpers <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: galpers <galpers@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 13:30:26 by galpers           #+#    #+#             */
-/*   Updated: 2022/03/24 13:30:55 by galpers          ###   ########.fr       */
+/*   Updated: 2022/03/28 13:36:06 by galpers          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ void	ft_conversion(char c, t_print *tab)
 		isint(tab);
 	else if (c == 'u')
 		isdecint(tab);
-    else if (c == 'x')
-		ishexlow(tab);    
+	else if (c == 'x')
+		ishexlow(tab);
 	else if (c == 'X')
 		ishexup(tab);
 	else if (c == '%')
